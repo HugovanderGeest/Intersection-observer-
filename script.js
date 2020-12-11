@@ -2,8 +2,6 @@ let alleLinks = document.querySelectorAll('nav a');
 let deSecties = document.querySelectorAll('section');
 
 const opties = {
-    rootMargin: '-150px',
-    treshold: 1.0
 };
 
 const verwerkDoorsnijding = (entries, observer) => {
@@ -49,3 +47,4 @@ const zoekBijpassendeLink = (id) => {
     let link = document.querySelector('nav a[href="' + id + '"]');
     return link;
 }
+
