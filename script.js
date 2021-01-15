@@ -2,6 +2,8 @@ let alleLinks = document.querySelectorAll('nav a');
 let deSecties = document.querySelectorAll('section');
 
 const opties = {
+    rootMargin: '-240px',
+    tresshold: 1.0
 };
 
 const verwerkDoorsnijding = (entries, observer) => {
